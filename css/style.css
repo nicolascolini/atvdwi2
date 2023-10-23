@@ -1,0 +1,166 @@
+* {
+   
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: RGB(255,194,52);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+    background-color: RGB(255,194,52);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+main {
+    background-color: RGB(255,194,52);
+    text-align: left;
+    padding: 50px;
+}
+
+.burger-week {
+    color: RGB(65,31,9);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.burger-images img {
+    max-width: 400px;
+    margin: 10px;
+  display: flex;
+  justify-content: right;
+ 
+
+}
+
+section {
+    text-align: center;
+    background-color: white;
+}
+
+.always-tasty {
+    background-color: RGB(255,194,52);
+    color: RGB(65,31,9);
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.burger-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 10px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 200px;
+}
+
+.card h3 {
+    color: #8B4513;
+}
+
+.order-button {
+    background-color: RGB(223,28,28);
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.table-form {
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFF;
+}
+
+
+.form-column {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    margin-right: 10px;
+
+}
+
+form label, form input {
+    margin-bottom: 8px;
+    background-color: #FFF;
+
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: RGB(255,194,52);
+
+}
+
+.find-table-button {
+    background-color: RGB(223,28,28);
+    color: #FFF;
+    border: none;
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    width: calc(100% - 16%);
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+footer {
+    background-image: url(/img/img/rodape/fundo.png);
+    color: #FFF;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    width: 45%;
+}
